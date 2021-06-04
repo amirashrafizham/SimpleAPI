@@ -12,7 +12,7 @@ namespace SimpleAPI.Test
         public void GetReturnsMyName()
         {
             var returnValue = weatherForecast.Get(1);
-            Assert.Equal("Amir", returnValue.Value);
+            Assert.Equal("Amir Ashraf", returnValue.Value);
         }
     }
 }
